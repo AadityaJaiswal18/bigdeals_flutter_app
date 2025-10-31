@@ -1,0 +1,19 @@
+name: bigdeals
+description: A simple one-file Flutter e-commerce demo for resume
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.1.1
+
+# assets (none required — images come from API)
+flutter:
+  uses-material-design: true
